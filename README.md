@@ -1,9 +1,18 @@
-# Caption Search Using Weaviate
- 
+# Caption Search
+
+This project's origin is [here](https://github.com/weaviate/weaviate-examples/tree/main/caption%20search).
+
 This is a demo example to show how to perform caption search using weaviate. \
 We will first fetch all the captions of a video and store them in weaviate. Then we will map all the indexes in that caption text to a particular time stamp at which those parts of the caption occur. We will be using [youtube-transcript-api](https://pypi.org/project/youtube-transcript-api/) to fetch the captions.
 
+https://user-images.githubusercontent.com/75658681/187984897-b8046504-a9d1-495e-af59-baa2004f23bd.mp4
+
 This example uses HTML, CSS, and Js for the frontend and NodeJs for the backend. 
+
+## Prerequisites
+(TO DO)
+
+## Setup instructions
 
 Follow the following steps to reproduce the example 
 1. Run the following command to run the weaviate docker file 
@@ -23,14 +32,8 @@ npm install
 ```bash
 npm run start
 ``` 
-A short demo usage:-
 
-
-https://user-images.githubusercontent.com/75658681/187984897-b8046504-a9d1-495e-af59-baa2004f23bd.mp4
-
-
-
-
+## Usage instructions
 
 Some descriptions about queries:- \
 We have majorly used only two queries for this demo
@@ -74,4 +77,7 @@ client.graphql
     .catch(err => {
       console.error(err)
     })
-```      
+```
+
+## Dataset license
+(TO DO) 
