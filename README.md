@@ -10,7 +10,8 @@ https://user-images.githubusercontent.com/75658681/187984897-b8046504-a9d1-495e-
 This example uses HTML, CSS, and Js for the frontend and NodeJs for the backend. 
 
 ## Prerequisites
-(TO DO)
+1. Install Docker and Docker-Compose
+2. Install Node and npm
 
 ## Setup instructions
 
